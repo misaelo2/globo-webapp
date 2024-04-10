@@ -52,6 +52,11 @@ variable "tfe_organization" {
   description = "(required) value for organization of terraform cloud"
 }
 
+variable "playbook_repository" {
+  type        = string
+  description = ""
+}
+
 variable "tfe_workspace_name" {
   type        = string
   description = "(required) workspace for terraform cloud"
